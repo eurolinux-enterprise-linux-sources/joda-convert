@@ -1,6 +1,6 @@
 Name:           joda-convert
 Version:        1.3
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Java library for conversion to and from standard string formats
 License:        ASL 2.0 
 URL:            https://github.com/JodaOrg/joda-convert/
@@ -36,6 +36,9 @@ sed -i s/// LICENSE.txt NOTICE.txt RELEASE-NOTES.txt
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-5
+- Mass rebuild 2013-12-27
+
 * Tue Aug 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.3-4
 - Migrate away from mvn-rpmbuild
 
